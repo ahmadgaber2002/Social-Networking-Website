@@ -1,0 +1,23 @@
+.indexClass {
+   
+    position: relative;
+    background: url("./img/welcome.jpg") no-repeat center center/cover;
+    height: 100vh;
+    
+    
+ } 
+
+ .indexContent{
+    text-align: center;
+    padding-top: 300px;
+    
+ }
+
+ .buttons{
+    margin: 10px;
+ }
+
+ .buttons a{
+   margin: 10px;
+   font-size: 16px;
+ }

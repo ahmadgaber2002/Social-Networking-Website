@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>      
+		<title>Social Network</title>
+        <link rel="stylesheet" type="text/css" href="./global.css">
+        <link rel="stylesheet" type="text/css" href="./post.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <script src= "post.js" ></script>
+        <script 
+          src="http://code.jquery.com/jquery-3.5.1.min.js" 
+          integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+          crossorigin="anonymous">
+        </script>
+</head>
+  <body onload="showPost()">
+    <div id="RootDiv">
+      <!-- Header -->
+      <div class='headerBar bg-dark'>
+        <div >
+          <h1>
+            <a href='./post.html'>
+              <i class="far fa-comment"></i> Social Netwrok
+            </a>
+          </h1>
+      </div>
+              
+      <div >
+          <ul>
+            <li>
+              <a id="proofileLink" href='./profile.html' >
+                <img class='profile-img' alt='' />
+              </a>
+            </li>
+            <li>
+              <a href='/login'>
+                <i class='fas fa-sing-out-alt'></i>
+                <span >Logout</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        
+      </div>
+
+      
+
+      <div style="margin: 0px 20% 0px 20%;">
+
+        <!-- Create Post --> 
+
+        <!-- Posts Show -->
+        <div id="PostsShowDiv">  
+            
+        </div>
+
+
+      </div>
+    </div>
+
+  </body>
+
+</html>
