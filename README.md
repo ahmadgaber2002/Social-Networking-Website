@@ -1,3 +1,5 @@
+![Weather App Screenshot](public_html/img/welcome.jpg)
+
 # Social Networking Website
 
 This project is a social networking website that allows users to create accounts, post content, like and comment on posts, and view other users' profiles. It is built using Node.js, Express, and MongoDB for the backend, and HTML, CSS, and JavaScript for the frontend.
